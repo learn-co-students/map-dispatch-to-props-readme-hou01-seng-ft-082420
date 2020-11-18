@@ -30,7 +30,7 @@ const mapDispatchToProps = (dispatch) => {
     addItem: () => {
       dispatch(addItem());
     },
-  };
+  }
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
